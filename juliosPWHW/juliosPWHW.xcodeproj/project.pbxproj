@@ -15,6 +15,7 @@
 		43641BF120D4311600B03E3C /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43641BF020D4311600B03E3C /* DetailViewController.swift */; };
 		43641BF320D4314400B03E3C /* EventCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43641BF220D4314400B03E3C /* EventCell.swift */; };
 		43641BF820D4375800B03E3C /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43641BF720D4375800B03E3C /* Event.swift */; };
+		439E701720E083E9001879E3 /* UIView+AnchorAutoLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439E701620E083E9001879E3 /* UIView+AnchorAutoLayout.swift */; };
 		43EA5D5420D440880009EF7D /* SDWebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43EA5D5320D440880009EF7D /* SDWebImage.framework */; };
 		43EA5D5C20D4C8E80009EF7D /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43EA5D5B20D4C8E80009EF7D /* GradientView.swift */; };
 		43EA5D5F20D4DC850009EF7D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43EA5D5E20D4DC850009EF7D /* AppDelegate.swift */; };
@@ -38,6 +39,7 @@
 		43641BF020D4311600B03E3C /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		43641BF220D4314400B03E3C /* EventCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventCell.swift; sourceTree = "<group>"; };
 		43641BF720D4375800B03E3C /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		439E701620E083E9001879E3 /* UIView+AnchorAutoLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+AnchorAutoLayout.swift"; sourceTree = "<group>"; };
 		43E46C1720D43C3E0092B926 /* SDWebImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SDWebImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		43EA5D5320D440880009EF7D /* SDWebImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SDWebImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		43EA5D5B20D4C8E80009EF7D /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
@@ -69,6 +71,7 @@
 			isa = PBXGroup;
 			children = (
 				4350265F20DA9F5800C6C9A9 /* Optional+FormatISODate.swift */,
+				439E701620E083E9001879E3 /* UIView+AnchorAutoLayout.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -318,6 +321,7 @@
 				43EA5D6920D58E970009EF7D /* RealmManager.swift in Sources */,
 				43641BED20D430DF00B03E3C /* APIService.swift in Sources */,
 				43641BF320D4314400B03E3C /* EventCell.swift in Sources */,
+				439E701720E083E9001879E3 /* UIView+AnchorAutoLayout.swift in Sources */,
 				43641BEB20D42AF200B03E3C /* HomeViewController.swift in Sources */,
 				43EA5D5C20D4C8E80009EF7D /* GradientView.swift in Sources */,
 				43641BF820D4375800B03E3C /* Event.swift in Sources */,
@@ -469,7 +473,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 84CK77G588;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "$(SRCROOT)/juliosPWHW/SupportFiles/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -490,7 +494,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 84CK77G588;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "$(SRCROOT)/juliosPWHW/SupportFiles/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

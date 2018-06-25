@@ -87,3 +87,17 @@ extension HomeViewController: UICollectionViewDelegate {
     }
 
 }
+
+// MARK:
+extension HomeViewController: UICollectionViewDelegateFlowLayout {
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
+        return CGSize(width: collectionView.bounds.width, height: 250)
+    }
+}
+
+
+
+
+
+
+

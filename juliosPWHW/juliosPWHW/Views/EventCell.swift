@@ -32,8 +32,46 @@ class EventCell: UICollectionViewCell {
                 imageBackground.image = #imageLiteral(resourceName: "placeholder_nomoon")
                 return
             }
-
+    
             imageBackground.sd_setImage(with: imageUrl, placeholderImage: #imageLiteral(resourceName: "placeholder_nomoon"), options: .highPriority, completed: nil)
         }
     }
+    
+    override func awakeFromNib() {
+        super.awakeFromNib()
+        setupImageView()
+    }
+    
+    
+    func setupImageView() {
+        imageBackground.anchor(top: self.topAnchor, leading: self.leadingAnchor, bottom: self.bottomAnchor, trailing: self.trailingAnchor)
+    }
+    
+    
+    
+    
+    
+    
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

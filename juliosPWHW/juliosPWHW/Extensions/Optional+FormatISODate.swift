@@ -8,7 +8,7 @@
 
 import Foundation
 
-extension Optional where Wrapped == String{
+extension Optional where Wrapped == String {
 
     func formatDateFromISO() -> String {
         var date: Wrapped { return self ?? "" }
