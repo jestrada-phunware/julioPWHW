@@ -9,33 +9,30 @@
 import Foundation
 
 class APIService {
-    static let shared = APIService()
 
+    static let shared = APIService()
     let baseUrl = "https://raw.githubusercontent.com/phunware-services/dev-interview-homework/master/feed.json"
+    
     func fetchEvents(_ completion: @escaping (_ result: [Event]) -> ()) {
-        let url = URL(string: baseUrl)!
+        guard let url = URL(string: baseUrl) else { return }
         let request = URLRequest(url: url)
         let session: URLSession = {
             let config = URLSessionConfiguration.default
             return URLSession(configuration: config)
         }()
 
-        let task = session.dataTask(with: request) { (data, response, error) in
-            if let error = error {
-                print("error: ", error)
-                return
-            }
+        let task = session.dataTask(with: request) { (data, _, error) in
             guard let data = data else { return }
+
             do {
                 let decoder = JSONDecoder()
                 let events = try decoder.decode([Event].self, from: data)
-
                 completion(events)
-            } catch let decodeError {
-                print("Decoding error is: ", decodeError)
+            } catch  {
+                print("Decoding error: ", error.localizedDescription)
             }
-
         }
+        
         task.resume()
     }
 }

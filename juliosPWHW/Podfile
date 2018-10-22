@@ -5,4 +5,5 @@ use_frameworks!
 target 'juliosPWHW' do
     pod 'SDWebImage', '~> 4.0'
     pod 'RealmSwift'
+    pod 'ReachabilitySwift'
 end

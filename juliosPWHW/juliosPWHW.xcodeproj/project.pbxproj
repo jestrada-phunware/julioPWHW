@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		4350266020DA9F5800C6C9A9 /* Optional+FormatISODate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4350265F20DA9F5800C6C9A9 /* Optional+FormatISODate.swift */; };
+		43513AFC20FF9D2E00B14A85 /* NavigationControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43513AFB20FF9D2E00B14A85 /* NavigationControllerDelegate.swift */; };
+		43513AFE20FF9EDD00B14A85 /* Transitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43513AFD20FF9EDD00B14A85 /* Transitions.swift */; };
+		43513B062100179700B14A85 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43513B052100179700B14A85 /* GradientView.swift */; };
 		43641BDE20D4295600B03E3C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43641BDC20D4295600B03E3C /* Main.storyboard */; };
 		43641BE320D4295700B03E3C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43641BE120D4295700B03E3C /* LaunchScreen.storyboard */; };
 		43641BEB20D42AF200B03E3C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43641BEA20D42AF200B03E3C /* HomeViewController.swift */; };
@@ -15,12 +18,10 @@
 		43641BF120D4311600B03E3C /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43641BF020D4311600B03E3C /* DetailViewController.swift */; };
 		43641BF320D4314400B03E3C /* EventCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43641BF220D4314400B03E3C /* EventCell.swift */; };
 		43641BF820D4375800B03E3C /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43641BF720D4375800B03E3C /* Event.swift */; };
-		439E701720E083E9001879E3 /* UIView+AnchorAutoLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439E701620E083E9001879E3 /* UIView+AnchorAutoLayout.swift */; };
+		43669C282102883200FD5687 /* Reachability.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43669C272102883200FD5687 /* Reachability.framework */; };
 		43EA5D5420D440880009EF7D /* SDWebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43EA5D5320D440880009EF7D /* SDWebImage.framework */; };
-		43EA5D5C20D4C8E80009EF7D /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43EA5D5B20D4C8E80009EF7D /* GradientView.swift */; };
 		43EA5D5F20D4DC850009EF7D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43EA5D5E20D4DC850009EF7D /* AppDelegate.swift */; };
 		43EA5D6220D4DC960009EF7D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43EA5D6020D4DC960009EF7D /* Assets.xcassets */; };
-		43EA5D6320D4DC960009EF7D /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 43EA5D6120D4DC960009EF7D /* Info.plist */; };
 		43EA5D6520D4E5430009EF7D /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43EA5D6420D4E5430009EF7D /* Realm.framework */; };
 		43EA5D6720D4E5460009EF7D /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43EA5D6620D4E5460009EF7D /* RealmSwift.framework */; };
 		43EA5D6920D58E970009EF7D /* RealmManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43EA5D6820D58E970009EF7D /* RealmManager.swift */; };
@@ -31,6 +32,9 @@
 		0D9391D3862AB560001C7162 /* Pods_juliosPWHW.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_juliosPWHW.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		186D110A85E6EAC7CEA2AB0A /* Pods-juliosPWHW.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-juliosPWHW.release.xcconfig"; path = "Pods/Target Support Files/Pods-juliosPWHW/Pods-juliosPWHW.release.xcconfig"; sourceTree = "<group>"; };
 		4350265F20DA9F5800C6C9A9 /* Optional+FormatISODate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Optional+FormatISODate.swift"; sourceTree = "<group>"; };
+		43513AFB20FF9D2E00B14A85 /* NavigationControllerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationControllerDelegate.swift; sourceTree = "<group>"; };
+		43513AFD20FF9EDD00B14A85 /* Transitions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transitions.swift; sourceTree = "<group>"; };
+		43513B052100179700B14A85 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		43641BD520D4295600B03E3C /* juliosPWHW.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = juliosPWHW.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		43641BDD20D4295600B03E3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		43641BE220D4295700B03E3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -39,10 +43,9 @@
 		43641BF020D4311600B03E3C /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		43641BF220D4314400B03E3C /* EventCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventCell.swift; sourceTree = "<group>"; };
 		43641BF720D4375800B03E3C /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
-		439E701620E083E9001879E3 /* UIView+AnchorAutoLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+AnchorAutoLayout.swift"; sourceTree = "<group>"; };
+		43669C272102883200FD5687 /* Reachability.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Reachability.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		43E46C1720D43C3E0092B926 /* SDWebImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SDWebImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		43EA5D5320D440880009EF7D /* SDWebImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SDWebImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		43EA5D5B20D4C8E80009EF7D /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		43EA5D5E20D4DC850009EF7D /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = juliosPWHW/SupportFiles/AppDelegate.swift; sourceTree = "<group>"; };
 		43EA5D6020D4DC960009EF7D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = juliosPWHW/SupportFiles/Assets.xcassets; sourceTree = "<group>"; };
 		43EA5D6120D4DC960009EF7D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = juliosPWHW/SupportFiles/Info.plist; sourceTree = "<group>"; };
@@ -57,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43669C282102883200FD5687 /* Reachability.framework in Frameworks */,
 				43EA5D6720D4E5460009EF7D /* RealmSwift.framework in Frameworks */,
 				43EA5D6520D4E5430009EF7D /* Realm.framework in Frameworks */,
 				43EA5D5420D440880009EF7D /* SDWebImage.framework in Frameworks */,
@@ -67,13 +71,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4350265E20D9D39100C6C9A9 /* Extensions */ = {
+		43513B042100094D00B14A85 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				43513AFB20FF9D2E00B14A85 /* NavigationControllerDelegate.swift */,
+				43513AFD20FF9EDD00B14A85 /* Transitions.swift */,
 				4350265F20DA9F5800C6C9A9 /* Optional+FormatISODate.swift */,
-				439E701620E083E9001879E3 /* UIView+AnchorAutoLayout.swift */,
 			);
-			path = Extensions;
+			path = Utils;
 			sourceTree = "<group>";
 		};
 		43641BCC20D4295600B03E3C = {
@@ -98,13 +103,13 @@
 			isa = PBXGroup;
 			children = (
 				43641BEE20D430E400B03E3C /* API */,
-				4350265E20D9D39100C6C9A9 /* Extensions */,
 				43641BF920D4375B00B03E3C /* Model */,
 				43EA5D5D20D4D4B40009EF7D /* Persistence */,
 				43641BEF20D430F000B03E3C /* Storyboards */,
+				43EA5D5620D4A01D0009EF7D /* SupportFiles */,
+				43513B042100094D00B14A85 /* Utils */,
 				43EA5D5520D47DA70009EF7D /* View Controllers */,
 				43641BF420D4318400B03E3C /* Views */,
-				43EA5D5620D4A01D0009EF7D /* SupportFiles */,
 			);
 			path = juliosPWHW;
 			sourceTree = "<group>";
@@ -166,7 +171,7 @@
 		43EA5D5A20D4C8C50009EF7D /* Designables */ = {
 			isa = PBXGroup;
 			children = (
-				43EA5D5B20D4C8E80009EF7D /* GradientView.swift */,
+				43513B052100179700B14A85 /* GradientView.swift */,
 			);
 			path = Designables;
 			sourceTree = "<group>";
@@ -182,6 +187,7 @@
 		8AE6D3C4A0B41B60294FF080 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				43669C272102883200FD5687 /* Reachability.framework */,
 				43EA5D6620D4E5460009EF7D /* RealmSwift.framework */,
 				43EA5D6420D4E5430009EF7D /* Realm.framework */,
 				43EA5D5320D440880009EF7D /* SDWebImage.framework */,
@@ -229,7 +235,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 0930;
+				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = "Julio Estrada";
 				TargetAttributes = {
 					43641BD420D4295600B03E3C = {
@@ -260,7 +266,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				43EA5D6320D4DC960009EF7D /* Info.plist in Resources */,
 				43641BE320D4295700B03E3C /* LaunchScreen.storyboard in Resources */,
 				43EA5D6220D4DC960009EF7D /* Assets.xcassets in Resources */,
 				43641BDE20D4295600B03E3C /* Main.storyboard in Resources */,
@@ -277,12 +282,14 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-juliosPWHW/Pods-juliosPWHW-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ReachabilitySwift/Reachability.framework",
 				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
 				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reachability.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
@@ -319,12 +326,13 @@
 			files = (
 				43EA5D5F20D4DC850009EF7D /* AppDelegate.swift in Sources */,
 				43EA5D6920D58E970009EF7D /* RealmManager.swift in Sources */,
+				43513B062100179700B14A85 /* GradientView.swift in Sources */,
 				43641BED20D430DF00B03E3C /* APIService.swift in Sources */,
 				43641BF320D4314400B03E3C /* EventCell.swift in Sources */,
-				439E701720E083E9001879E3 /* UIView+AnchorAutoLayout.swift in Sources */,
 				43641BEB20D42AF200B03E3C /* HomeViewController.swift in Sources */,
-				43EA5D5C20D4C8E80009EF7D /* GradientView.swift in Sources */,
+				43513AFE20FF9EDD00B14A85 /* Transitions.swift in Sources */,
 				43641BF820D4375800B03E3C /* Event.swift in Sources */,
+				43513AFC20FF9D2E00B14A85 /* NavigationControllerDelegate.swift in Sources */,
 				4350266020DA9F5800C6C9A9 /* Optional+FormatISODate.swift in Sources */,
 				43641BF120D4311600B03E3C /* DetailViewController.swift in Sources */,
 			);
@@ -473,7 +481,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 84CK77G588;
 				INFOPLIST_FILE = "$(SRCROOT)/juliosPWHW/SupportFiles/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -494,7 +502,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 84CK77G588;
 				INFOPLIST_FILE = "$(SRCROOT)/juliosPWHW/SupportFiles/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

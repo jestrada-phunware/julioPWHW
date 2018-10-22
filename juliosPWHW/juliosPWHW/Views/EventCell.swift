@@ -13,18 +13,19 @@ import SDWebImage
 class EventCell: UICollectionViewCell {
     static let defaultIdentifier = "EventCell"
 
-    // MARK: - Properties
+    // MARK: - Outlets
     @IBOutlet weak var dateLabel: UILabel!
-    @IBOutlet weak var eventTitle: UILabel!
+    @IBOutlet weak var eventLabel: UILabel!
     @IBOutlet weak var locationLabel: UILabel!
     @IBOutlet weak var descriptionLabel: UILabel!
     @IBOutlet weak var imageBackground: UIImageView!
     @IBOutlet weak var imageOverlay: UIView!
-    
+
+    // MARK: - Properties
     var event: Event! {
         didSet {
             dateLabel.text = event.date.formatDateFromISO()
-            eventTitle.text = event.title
+            eventLabel.text = event.title
             locationLabel.text = "\(event.locationLineOne ?? ""), \(event.locationLineTwo ?? "")"
             descriptionLabel.text = event.eventDescription
 
@@ -36,42 +37,6 @@ class EventCell: UICollectionViewCell {
             imageBackground.sd_setImage(with: imageUrl, placeholderImage: #imageLiteral(resourceName: "placeholder_nomoon"), options: .highPriority, completed: nil)
         }
     }
-    
-    override func awakeFromNib() {
-        super.awakeFromNib()
-        setupImageView()
-    }
-    
-    
-    func setupImageView() {
-        imageBackground.anchor(top: self.topAnchor, leading: self.leadingAnchor, bottom: self.bottomAnchor, trailing: self.trailingAnchor)
-    }
-    
-    
-    
-    
-    
-    
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
